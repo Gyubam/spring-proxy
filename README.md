@@ -36,3 +36,4 @@
   - cglib - CGLIB 통한 동적 프록시 Test 코드 (인터페이스가 없는 경우, 구체 클래스)
   - proxyfactory - ProxyFactory 통한 프록시 (JDK 동적 프록시, CGLIB) 자동화 Test 코드
   - advisor - proxyFactory에 어드바이저 적용 Test 코드
+  - postprocessor - 스프링 빈 후처리기 Test 코드
