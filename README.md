@@ -30,4 +30,4 @@
     - concreteproxy - 구체 클래스 기반 프록시 Test 코드
   - jdkdynamic - JDK 동적 프록시 Test 코드 (인터페이스가 있는 경우)
   - cglib - CGLIB 통한 동적 프록시 Test 코드 (인터페이스가 없는 경우, 구체 클래스)
-  - proxyfactory - ProxyFactory 통한 프록시 (JDK 동적 프록시, CGLIB) 자동화
+  - proxyfactory - ProxyFactory 통한 프록시 (JDK 동적 프록시, CGLIB) 자동화 
