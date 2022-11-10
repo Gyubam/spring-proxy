@@ -11,14 +11,17 @@
 
 - config
   - v1_proxy
-    - interface_proxy - 인터페이스 기반 프록시 적용
-    - concrete_proxy - 구체 클래스 기반 프록시 적용
+    - interface_proxy - 인터페이스 기반 프록시 구현
+    - concrete_proxy - 구체 클래스 기반 프록시 구현
 
   - v2_dynamicproxy
     - LogTraceBasicHandler - JDK 동적 프록시 적용
     - LogTraceFilterHandler - JDK 동적 프록시 적용 + 메서드 필터 기능
   
-
+  - v3_proxyfactory
+    - advice
+      - LogTraceAdvice - 어드바이스 구현 코드
+    - ProxyFactoryConfigV1 - V1(인터페이스 기반)에 프록시 팩토리 적용
 </br>
 </br>
 
