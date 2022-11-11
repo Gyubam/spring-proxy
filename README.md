@@ -31,6 +31,10 @@
     
   - v5_autoproxy
     - AutoProxyConfig - AnnotationAwareAspectJAutoProxyCreator 통한 프록시 생성 자동화
+    
+  - v6_aop
+    - aspect
+      - LogTraceAspect - @Aspect 프록시 적용
 </br>
 </br>
 
