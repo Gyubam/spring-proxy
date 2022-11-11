@@ -28,6 +28,9 @@
     - postprocessor
       - PackageLogTracePostProcessor - BeanPostProcessor 클래스 구현
     - BeanPostProcessorConfig - V1, V2, V3 빈 후처리기 적용
+    
+  - v5_autoproxy
+    - AutoProxyConfig - AnnotationAwareAspectJAutoProxyCreator 통한 프록시 생성 자동화
 </br>
 </br>
 
