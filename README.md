@@ -23,6 +23,11 @@
       - LogTraceAdvice - 어드바이스 구현 코드
     - ProxyFactoryConfigV1 - V1(인터페이스 기반)에 프록시 팩토리 적용
     - ProxyFactoryConfigV2 - V1(구체 클래스 기반)에 프록시 팩토리 적용
+    
+  - v4_postprocessor
+    - postprocessor
+      - PackageLogTracePostProcessor - BeanPostProcessor 클래스 구현
+    - BeanPostProcessorConfig - V1, V2, V3 빈 후처리기 적용
 </br>
 </br>
 
